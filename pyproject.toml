@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "underpyx"
-version = "0.1.0"
+version = "0.1.1"
 description = "Fundamental utilities in python, such as encapsulation, immutability, service patterns, and JSON type hinting."
 authors = [
     { name = "Ariana Maghsoudi", email = "ariana.maghsoudi82@gmail.com" }

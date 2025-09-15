@@ -20,8 +20,7 @@ Underpy provides foundational building blocks such as encapsulated data, immutab
 Install from source (local development):
 
 ```bash
-# Install with development dependencies (pytest, assertpy)
-pip install -e .[dev]
+pip install git+https://github.com/ariana126/underpy.git
 ```
 
 ---

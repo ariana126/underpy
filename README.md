@@ -17,10 +17,14 @@ Underpy provides foundational building blocks such as encapsulated data, immutab
 
 ## 📦 Installation
 
-Install from source (local development):
+Install from source:
 
 ```bash
 pip install git+https://github.com/ariana126/underpy.git
+```
+or PyPI
+```bash
+pip install underpyx
 ```
 
 ---
@@ -85,4 +89,3 @@ If you have an improvement or find a bug:
 ## 💡 About
 This project is part of a personal utility toolkit used to maintain a consistent, clean architecture across Python projects.  
 Originally authored by [Ariana](https://github.com/ariana126).
-EOF

@@ -1,4 +1,5 @@
 .idea/
 .venv/
-underpy.egg-info/
 venv/
+dist/
+underpyx.egg-info/

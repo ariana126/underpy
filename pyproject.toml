@@ -1,11 +1,11 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0", "wheel", "twine"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "underpy"
+name = "underpyx"
 version = "0.1.0"
-description = "Fundamental utilities in python, such as encapsulation, immutability, service patterns, and JSON typing in Python."
+description = "Fundamental utilities in python, such as encapsulation, immutability, service patterns, and JSON type hinting."
 authors = [
     { name = "Ariana Maghsoudi", email = "ariana.maghsoudi82@gmail.com" }
 ]

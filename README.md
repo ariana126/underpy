@@ -86,6 +86,21 @@ If you have an improvement or find a bug:
 
 ---
 
+## 🤖 Agent Skill
+
+An [agentskills.io](https://agentskills.io)-compatible skill is available so AI coding agents (like Claude Code) automatically know how to use this package.
+
+Copy `docs/agents/skills/underpy/` into your Claude skills directory:
+
+```bash
+mkdir -p ~/.claude/skills
+cp -r docs/agents/skills/underpy ~/.claude/skills/
+```
+
+Once installed, agents will automatically recognize when you're using `underpy` and apply correct usage patterns for `Encapsulated`, `Immutable`, `ServiceClass`, `JSON`, and `Fn`.
+
+---
+
 ## 💡 About
 This project is part of a personal utility toolkit used to maintain a consistent, clean architecture across Python projects.  
 Originally authored by [Ariana](https://github.com/ariana126).
